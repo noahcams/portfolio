@@ -2,6 +2,7 @@
 
 :root {
   --primary-dark: rgb(255, 255, 255, 0);
+  --green: rgb(22, 199, 22);
 }
 
 body {
@@ -45,4 +46,63 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid rgb(22, 199, 22);
+}
+
+/************************* HEADER ***************************/
+
+.header-wrapper {
+  position: relative;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(images/blade-runner-wallpaper.jpg) no-repeat; */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-info h1 {
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+/* ---------- TYPED TEXT ------------- */
+.typed-text {
+  font-size: 2rem;
+  color: white;
+}
+
+/* ---------- HEADER MAIN BUTTON ------------- */
+.btn-main {
+  border: 1px solid red;
+  text-transform: uppercase;
+  padding: .625rem .75rem .75rem .75rem;
+  color: white;
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.btn-main:hover {
+  color: white;
+  border: 1px solid var(--green);
+}
+
+/*-------------- PARTICLES ------------*/
+.tsparticles {
+  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(images/blade-runner-wallpaper.jpg) no-repeat;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }

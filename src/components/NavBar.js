@@ -1,5 +1,5 @@
 import React from "react";
-import profPic from "../prof-image.jpg";
+import profPic from "../images/prof-image.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -41,7 +41,7 @@ export default function NavBar() {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Contact Me
+								Contact
 							</a>
 						</li>
 					</ul>
