@@ -15,7 +15,7 @@ function App() {
           size: "cover",
           // position: 
         },
-        fpsLimit: 60,
+        fpsLimit: 50,
         interactivity: {
           events: {
             onClick: {
