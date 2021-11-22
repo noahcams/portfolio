@@ -1,6 +1,6 @@
 {
-  "homepage": "http://noahcams.github.io/portfolio-project",
-  "name": "portfolio-project",
+  "homepage": "http://noahcams.github.io/portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
