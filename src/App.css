@@ -5,10 +5,6 @@
   --green: rgb(22, 199, 22);
 }
 
-body {
-  font-family: 'Roboto Condensed', sans-serif;
-} 
-
 ::-webkit-scrollbar {
   width: 0.9rem;
   background-color: rgb(20, 20, 20);
@@ -66,6 +62,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 90vh; 
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -165,7 +162,7 @@ nav ul li {
 }
 
 #linked-in, #github {
-  margin-top: 0.9rem;
+  margin-top: 0.75rem;
 }
 
 #email span {
