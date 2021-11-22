@@ -9,10 +9,21 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 } 
 
+::-webkit-scrollbar {
+  width: 0.9rem;
+  background-color: rgb(20, 20, 20);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 0.05rem solid var(--green);
+  background: gray;
+}
+
 /***************************** Navbar ******************************/
 
 .profImage {
-  width: 6rem;
+  height: 6rem;
   margin-left: 1rem;
   border-radius: 1rem;
 }
@@ -52,11 +63,11 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(images/blade-runner-wallpaper.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 90vh; 
 }
+
 
 .main-info {
   display: flex;
@@ -73,7 +84,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--green);
+  color: white;
   text-transform: uppercase;
 }
 
@@ -85,7 +96,7 @@ nav ul li {
 
 /* ---------- HEADER MAIN BUTTON ------------- */
 .btn-main {
-  border: 1px solid red;
+  border: 1px solid var(--green);
   text-transform: uppercase;
   padding: .625rem .75rem .75rem .75rem;
   color: white;
@@ -95,7 +106,7 @@ nav ul li {
 
 .btn-main:hover {
   color: white;
-  border: 1px solid var(--green);
+  border: 1px solid green;
 }
 
 /*-------------- PARTICLES ------------*/
@@ -105,4 +116,58 @@ nav ul li {
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+/************************** ABOUT AND CONTACT *****************************/
+
+.about-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  color: white;
+}
+
+.card-title {
+  position: relative;
+  top: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.about-contact > div {
+  border: 1px solid var(--green);
+  background-color: rgba(24, 26, 27, 0.8);
+}
+
+.about-contact a {
+  text-decoration: none;
+}
+
+/************************ CONTACT ***************************/
+
+.contact-paragraph {
+  margin: 1rem auto;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links img {
+  width: 2.5rem;
+}
+
+.links a:hover {
+  transform: scale(1.2);
+}
+
+#linked-in, #github {
+  margin-top: 0.9rem;
+}
+
+#email span {
+  font-size: 2.5rem;
 }

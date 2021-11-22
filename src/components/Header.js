@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from 'react-typed';
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -7,11 +8,11 @@ export default function Header() {
       <div className="main-info">
         <h1>Full Stack Software Engineer</h1>
         <Typed className="typed-text" 
-          strings={["Front End", "Back End", "MERN Stack", "Web Development", "Noah Camara"]}
+          strings={["Front End", "Back End", "Web Development", "Noah Camara"]}
           typeSpeed={40}
           backSpeed={60}
         />
-        <a href="#" className="btn-main">Contact Me</a>
+        <Link to="/contact" className="btn-main">Contact Me</Link>
       </div>
     </div>
   )

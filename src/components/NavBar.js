@@ -2,6 +2,7 @@ import React from "react";
 import profPic from "../images/prof-image.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
 	return (
@@ -25,24 +26,24 @@ export default function NavBar() {
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav">
 						<li className="nav-item active">
-							<a className="nav-link" href="#">
+							<Link className="nav-link" to="/">
 								Home
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<Link className="nav-link" to="/about">
 								About
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<Link className="nav-link" to="/portfolio">
 								Portfolio
-							</a>
+							</Link>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">
+							<Link className="nav-link" to="/contact">
 								Contact
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
