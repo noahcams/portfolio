@@ -22,24 +22,29 @@ export default function Portfolio() {
 					<a href="https://github.com/KenzieAcademy-Students/datahandling-assessment-noahcams">
 						<img src={movie} alt="movie catalog screenshot" />
 					</a>
+					<Card.Body>A neatly styled movie catalog with search functionality</Card.Body>
 				</Card>
 				<Card>
 					<Card.Title>Maze</Card.Title>
 					<a href="https://github.com/KenzieAcademy-Students/datamodels-nested-arrays-practice-noahcams">
 						<img src={maze} alt="screenshot" />
 					</a>
+					<Card.Body>A project that used nested arrays and loops to generate a maze that the user can 
+					traverse through with the arrow keys</Card.Body>
 				</Card>
 				<Card>
 					<Card.Title>Mock Dog Adoption Site</Card.Title>
 					<a href="https://github.com/KenzieAcademy-Students/react-speed-dating-assessment-noahcams">
 						<img src={dog} alt="dog adoption app screenshot" />
 					</a>
+					<Card.Body>A React App that allows the user to interact with the random dog api</Card.Body>
 				</Card>
 				<Card>
 					<Card.Title>Array Methods Rewritten</Card.Title>
 					<a href="https://github.com/KenzieAcademy-Students/challenge-array-methods-noahcams">
 						<img src={arrayMethods} alt="array methods screenshot" />
 					</a>
+					<Card.Body>JavaScript's built-in array methods rewritten as a coding challenge</Card.Body>
 				</Card>
 			</React.Fragment>
 		</div>
