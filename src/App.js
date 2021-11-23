@@ -6,8 +6,8 @@ import Particles from 'react-tsparticles';
 import background from './images/blade-runner-wallpaper.jpg';
 import About from './components/About';
 import Contact from './components/Contact';
-import Projects from './components/Projects';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Projects from './components/Portfolio';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 	return (

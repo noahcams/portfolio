@@ -126,7 +126,7 @@ nav ul li {
   color: white;
 }
 
-.card-title {
+.about-contact .card-title {
   position: relative;
   top: 1rem;
   margin: auto;
@@ -167,4 +167,46 @@ nav ul li {
 
 #email span {
   font-size: 2.5rem;
+}
+
+/************************ PORTFOLIO PAGE ****************************/
+
+.portfolio {
+  position: relative;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100rem;
+}
+
+.projects {
+  flex-direction: row;
+}
+
+.portfolio .card-title {
+  margin-bottom: 1.2rem;
+}
+
+.portfolio > div {
+  border: 1px solid var(--green);
+  background-color: rgba(24, 26, 27, 0.8);
+  width: 50vw;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+.portfolio img {
+  width: 40vw;
+}
+
+.portfolio a {
+  width: fit-content;
+  margin: auto;
+}
+
+#resume {
+  width: 30vw;
 }

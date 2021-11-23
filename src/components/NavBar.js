@@ -9,7 +9,7 @@ export default function NavBar() {
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div className="container">
 				<a className="navbar-brand" href="/">
-					<img className="profImage" src={profPic} alt="profile picture" />
+					<img className="profImage" src={profPic} alt="profile" />
 				</a>
 				<button
 					className="navbar-toggler"
