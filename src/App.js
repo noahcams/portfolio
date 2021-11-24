@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<Particles
 				options={{
 					background: {
@@ -67,7 +67,7 @@ function App() {
 							enable: true,
 							outMode: 'bounce',
 							random: false,
-							speed: 3,
+							speed: 2,
 							straight: false,
 						},
 						number: {
