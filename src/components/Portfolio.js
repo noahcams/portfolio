@@ -29,8 +29,8 @@ export default function Portfolio() {
 					<a href="https://github.com/KenzieAcademy-Students/datamodels-nested-arrays-practice-noahcams">
 						<img src={maze} alt="screenshot" />
 					</a>
-					<Card.Body>A cool project that used nested arrays and loops to generate a maze that the user can 
-					traverse through with the arrow keys</Card.Body>
+					<Card.Body>A project that used nested arrays and loops to generate a maze that the user can 
+					traverse through using the arrow keys</Card.Body>
 				</Card>
 				<Card>
 					<Card.Title>Mock Dog Adoption Site</Card.Title>
