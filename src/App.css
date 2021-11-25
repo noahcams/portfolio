@@ -136,7 +136,7 @@ nav ul li {
 .about-contact > div {
   border: 1px solid var(--green);
   background-color: rgba(24, 26, 27, 0.8);
-  width: 75vw;
+  width: 80%;
 }
 
 .about-contact a {

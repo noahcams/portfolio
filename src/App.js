@@ -7,11 +7,11 @@ import background from './images/blade-runner-wallpaper.jpg';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Portfolio';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<HashRouter>
 			<Particles
 				options={{
 					background: {
@@ -98,7 +98,7 @@ function App() {
         <Route path='/portfolio' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
 			</Routes>
-		</Router>
+		</HashRouter>
 	);
 }
 
