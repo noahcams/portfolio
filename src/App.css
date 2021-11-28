@@ -136,6 +136,8 @@ nav ul li {
   border: 1px solid var(--green);
   background-color: rgba(24, 26, 27, 0.8);
   width: 80%;
+  position: relative;
+  top: 2rem;
 }
 
 .about-contact a {

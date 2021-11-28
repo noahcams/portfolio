@@ -13,21 +13,21 @@ export default function Contact() {
 						want to say hi, my inbox is always open!
 					</p>
 					<div className="links">
-						<a href="https://www.linkedin.com/in/noah-camara/">
+						<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/noah-camara/">
 							<img
 								id="linked-in"
 								src="https://optionsnoob.com/wp-content/uploads/2019/10/linkedin-logo.png"
 								alt="linked in logo"
 							/>
 						</a>
-						<a href="https://github.com/noahcams">
+						<a target="_blank" rel="noreferrer" href="https://github.com/noahcams">
 							<img
 								id="github"
 								src="https://icon-library.com/images/github-icon-white/github-icon-white-5.jpg"
 								alt="github logo"
 							/>
 						</a>
-						<a
+						<a target="_blank" rel="noreferrer"
 							id="email"
 							href="https://mail.google.com/mail/?view=cm&source=mailto&to=noahcmr@gmail.com"
 						>

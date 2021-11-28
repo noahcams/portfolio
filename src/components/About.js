@@ -11,15 +11,15 @@ export default function About() {
 				<Card.Body>
           I'm an aspiring web developer specializing in creating user-intuitive
 					applications. I am currently a full stack software engineering student
-					at <a href="https://www.kenzie.academy/">Kenzie Academy</a> and
+					at <a target="_blank" rel="noreferrer" href="https://www.kenzie.academy/">Kenzie Academy</a> and
 					working part time as a JavaScript Fundamentals Coach. The technologies I work with
-          include: <a href="https://www.mongodb.com/">MongoDB</a>, <a href=
-          "https://expressjs.com/">Express</a>, <a href="https://reactjs.org/">React</a>, 
-          <a href="https://nodejs.org/en/about/"> Node</a>, and some <a href=
-          "https://www.python.org/">Python</a> and <a href="https://www.w3schools.com/java/java_intro.asp">Java</a>.
+          include: <a target="_blank" rel="noreferrer" href="https://www.mongodb.com/">MongoDB</a>, <a target="_blank" rel="noreferrer" href=
+          "https://expressjs.com/">Express</a>, <a target="_blank" rel="noreferrer" href="https://reactjs.org/">React</a>, 
+          <a target="_blank" rel="noreferrer" href="https://nodejs.org/en/about/"> Node</a>, and some <a target="_blank" rel="noreferrer" href=
+          "https://www.python.org/">Python</a> and <a target="_blank" rel="noreferrer" href="https://www.w3schools.com/java/java_intro.asp">Java</a>.
           I primarily use Windows, Chrome, and Visual Studio Code.
           <br/><br/>In my free time, I
-          like skateboarding, which you can see on my <a href=
+          like skateboarding, which you can see on my <a target="_blank" rel="noreferrer" href=
           "https://www.instagram.com/noahcams/">Instagram</a>, playing Xbox
           with friends and spending time with my lovely fiancé Danielle and our 
           dog Ori.
