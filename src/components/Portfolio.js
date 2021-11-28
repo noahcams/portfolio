@@ -19,14 +19,14 @@ export default function Portfolio() {
 			<React.Fragment className="projects">
 				<Card>
 					<Card.Title>Movie Catalog</Card.Title>
-					<a target="_blank" rel="noreferrer" href="https://github.com/KenzieAcademy-Students/datahandling-assessment-noahcams">
+					<a target="_blank" rel="noreferrer" href="https://noahcams.github.io/movie-catalogue/">
 						<img src={movie} alt="movie catalog screenshot" />
 					</a>
 					<Card.Body>A neatly styled movie catalog with search functionality</Card.Body>
 				</Card>
 				<Card>
 					<Card.Title>Maze</Card.Title>
-					<a target="_blank" rel="noreferrer" href="https://github.com/KenzieAcademy-Students/datamodels-nested-arrays-practice-noahcams">
+					<a target="_blank" rel="noreferrer" href="https://noahcams.github.io/maze/">
 						<img src={maze} alt="screenshot" />
 					</a>
 					<Card.Body>A project that used nested arrays and loops to generate a maze that the user can 
@@ -34,14 +34,14 @@ export default function Portfolio() {
 				</Card>
 				<Card>
 					<Card.Title>Mock Dog Adoption Site</Card.Title>
-					<a target="_blank" rel="noreferrer" href="https://github.com/KenzieAcademy-Students/react-speed-dating-assessment-noahcams">
+					<a target="_blank" rel="noreferrer" href="https://noahcams.github.io/dog-adoption/">
 						<img src={dog} alt="dog adoption app screenshot" />
 					</a>
 					<Card.Body>A React App that allows the user to interact with the random dog api</Card.Body>
 				</Card>
 				<Card>
 					<Card.Title>Array Methods Rewritten</Card.Title>
-					<a target="_blank" rel="noreferrer" href="https://github.com/KenzieAcademy-Students/challenge-array-methods-noahcams">
+					<a target="_blank" rel="noreferrer" href="https://github.com/noahcams/array-methods">
 						<img src={arrayMethods} alt="array methods screenshot" />
 					</a>
 					<Card.Body>JavaScript's built-in array methods rewritten for a coding challenge</Card.Body>
