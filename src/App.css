@@ -129,8 +129,7 @@ nav ul li {
 .about-contact .card-title {
   position: relative;
   top: 1rem;
-  margin: auto;
-  margin-top: 1rem;
+  margin: 0.5rem auto;
 }
 
 .about-contact > div {
