@@ -5,6 +5,7 @@ import movie from '../images/movie-catalog.jpg';
 import maze from '../images/maze.jpg';
 import dog from '../images/dog.jpg';
 import arrayMethods from '../images/array-methods.jpg';
+import weatherApp from '../images/weather-app-screenshot.png';
 
 export default function Portfolio() {
 	return (
@@ -18,11 +19,11 @@ export default function Portfolio() {
 			<h3>Projects and coding challenges</h3>
 			<React.Fragment className="projects">
 				<Card>
-					<Card.Title>Movie Catalog</Card.Title>
-					<a target="_blank" rel="noreferrer" href="https://noahcams.github.io/movie-catalogue/">
-						<img src={movie} alt="movie catalog screenshot" />
+					<Card.Title>Weather App</Card.Title>
+					<a target="_blank" rel="noreferrer" href="https://github.com/noahcams/weather-app">
+						<img src={weatherApp} alt="weather app screenshot" />
 					</a>
-					<Card.Body>A neatly styled movie catalog with search functionality</Card.Body>
+					<Card.Body>A native Android weather app that uses the <i>All the Weather</i> API within an MVVM architecture</Card.Body>
 				</Card>
 				<Card>
 					<Card.Title>Maze</Card.Title>
