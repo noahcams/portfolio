@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import resume from '../images/resume.jpg';
-import movie from '../images/movie-catalog.jpg';
 import maze from '../images/maze.jpg';
 import dog from '../images/dog.jpg';
 import arrayMethods from '../images/array-methods.jpg';

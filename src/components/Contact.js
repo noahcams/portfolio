@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import linkedIn from '../images/linked-in-logo.png';
 
 export default function Contact() {
 	return (
@@ -16,7 +17,7 @@ export default function Contact() {
 						<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/noah-camara/">
 							<img
 								id="linked-in"
-								src="https://optionsnoob.com/wp-content/uploads/2019/10/linkedin-logo.png"
+								src={linkedIn}
 								alt="linked in logo"
 							/>
 						</a>
