@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c1a2e426.chunk.css",
-    "main.js": "/portfolio/static/js/main.0b5a9ad7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0b5a9ad7.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b58e9893.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b58e9893.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.ade05abd.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.ade05abd.js.map",
     "static/css/2.4659568d.chunk.css": "/portfolio/static/css/2.4659568d.chunk.css",
@@ -17,8 +17,8 @@
     "static/media/array-methods.28b16094.jpg": "/portfolio/static/media/array-methods.28b16094.jpg",
     "static/media/App.css": "/portfolio/static/media/blade-runner-wallpaper.437cdd2c.jpg",
     "static/media/dog.e7d929d4.jpg": "/portfolio/static/media/dog.e7d929d4.jpg",
+    "static/media/linked-in-logo.66ffd29a.png": "/portfolio/static/media/linked-in-logo.66ffd29a.png",
     "static/media/maze.9028f300.jpg": "/portfolio/static/media/maze.9028f300.jpg",
-    "static/media/movie-catalog.a2564600.jpg": "/portfolio/static/media/movie-catalog.a2564600.jpg",
     "static/media/prof-image.a2f3d8b9.jpg": "/portfolio/static/media/prof-image.a2f3d8b9.jpg",
     "static/media/resume.67d8f08e.jpg": "/portfolio/static/media/resume.67d8f08e.jpg",
     "static/media/weather-app-screenshot.b3715591.png": "/portfolio/static/media/weather-app-screenshot.b3715591.png"
@@ -28,6 +28,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.6191360d.chunk.js",
     "static/css/main.c1a2e426.chunk.css",
-    "static/js/main.0b5a9ad7.chunk.js"
+    "static/js/main.b58e9893.chunk.js"
   ]
 }
