@@ -6,9 +6,9 @@ export default function Header() {
   return (
     <div className="header-wrapper">
       <div className="main-info">
-        <h1>Android Developer</h1>
+        <h1>Software Engineer</h1>
         <Typed className="typed-text" 
-          strings={["Front End", "Back End", "Web Development", "Noah Camara"]}
+          strings={["Front End", "Back End", "Web Development", "Android Development", "Noah Camara"]}
           typeSpeed={40}
           backSpeed={60}
         />
